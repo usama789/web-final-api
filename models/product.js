@@ -7,7 +7,7 @@ var productSchema = mongoose.Schema({
     Size:String,
     Availability:String,
     Quantity:Number,
-    imageUrl:String
+    imageUrl:Stringa
 });
 var Product = mongoose.model("Product", productSchema);
 
